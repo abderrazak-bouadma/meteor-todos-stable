@@ -1,7 +1,9 @@
 <template name="todoItem">
-    <div>
-        <h3>{{taskName}}</h3>
-        <p>{{taskDescription}}</p>
-        <p>{{taskStatus}}</p>
+    <div class="panel panel-default">
+        <div class="panel-heading">{{taskName}}</div>
+        <div class="panel-body">
+            {{taskDescription}} <br>
+            {{taskStatus}}
+        </div>
     </div>
 </template>
