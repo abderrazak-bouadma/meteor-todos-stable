@@ -3,14 +3,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+          <a class="navbar-brand">Todos</a>
+    </div>
+</div>
+
 <div class="container">
-    <header>
-        <div>
-            <a href="/">Todos</a>
+    <div class="starter-template">
+        <div id="main">
+            {{> todosList}}
         </div>
-    </header>
-    <div id="main">
-        {{> todosList}}
     </div>
 </div>
 </body>
